@@ -13,7 +13,7 @@ var config = {
     NFTAbi:  nftAbi,
     Reward : "",
     RewardAbi: rewardAbi ,
-    chainId: 0xa86a
+    chainId: 43114,
 }
 
 

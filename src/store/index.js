@@ -2,6 +2,7 @@ import { createStore } from 'redux'
 import Web3 from 'web3';
 import config from '../contract/config';
 import { toast } from 'react-toastify';
+import { checkChainIsNumber } from '../helpers/chainHelpers';
 
 
 
@@ -226,7 +227,8 @@ const connectAlert = () => {
 }
 
 const chechNetwork = (chainId) => {
-    if (chainId === undefined || chainId !== config.chainId) {
+    const validChainId = checkChainIsNumber(chainId);
+    if (chainId === undefined || validChainId !== config.chainId) {
         toast.info("Change network to Avalanche C Chain!", {
             position: "top-center",
             autoClose: 3000,
@@ -275,7 +277,7 @@ if (window.ethereum) {
             payload: { chainId: chainId }
         });
     });
-    web3.eth.net.getId().then((chainId) => {
+    web3.eth.getChainId().then((chainId) => {
         chechNetwork(chainId);
         store.dispatch({
             type: "UPDATE_CHAIN_ID",
