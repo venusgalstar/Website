@@ -181,6 +181,96 @@ class HomeStart extends React.Component {
           </div>
         </section>
 
+        <section id="section-roadmap">
+          <div className="team-container">
+
+            <h2 className="teamTitle">Roadmap</h2>
+
+
+            <ul class="timeline">
+
+              {/* <!-- Item 1 --> */}
+              <li>
+                <div class="direction-r">
+                  <div class="flag-wrapper">
+                    <span class="flag">Team formation</span>
+                    <span class="time-wrapper"><span class="time">Q1 2022 - present</span></span>
+                  </div>
+                  <div class="desc">Selection of our team members. Selection of our team members.</div>
+                </div>
+              </li>
+              
+              {/* <!-- Item 2 --> */}
+              <li>
+                <div class="direction-l">
+                  <div class="flag-wrapper">
+                    <span class="flag">Q2 2022 - Launch of Mouvre</span>
+                    <span class="time-wrapper"><span class="time">July 20th</span></span>
+                  </div>
+                  <div class="desc">Launch of first NFT exchange called Mouvre.</div>
+                </div>
+              </li>
+
+              {/* <!-- Item 3 --> */}
+              <li>
+                <div class="direction-r">
+                  <div class="flag-wrapper">
+                    <span class="flag">Q3 2022 - Swapsicle</span>
+                    <span class="time-wrapper"><span class="time">Sept 2022</span></span>
+                  </div>
+                  <div class="desc">Launch of first new exchanged called Swapsicle.</div>
+                </div>
+              </li>
+
+              {/* <!-- Item 4 --> */}
+              <li>
+                <div class="direction-l">
+                  <div class="flag-wrapper">
+                    <span class="flag">Q2 2022 - Launch of Mouvre</span>
+                    <span class="time-wrapper"><span class="time">July 20th</span></span>
+                  </div>
+                  <div class="desc">Launch of first NFT exchange called Mouvre.</div>
+                </div>
+              </li>
+
+              {/* <!-- Item 5 --> */}
+              <li>
+                <div class="direction-r">
+                  <div class="flag-wrapper">
+                    <span class="flag">Q3 2022 - Swapsicle</span>
+                    <span class="time-wrapper"><span class="time">Sept 2022</span></span>
+                  </div>
+                  <div class="desc">Launch of first new exchanged called Swapsicle.</div>
+                </div>
+              </li>
+
+              {/* <!-- Item 6 --> */}
+              <li>
+                <div class="direction-l">
+                  <div class="flag-wrapper">
+                    <span class="flag">Q2 2022 - Launch of Mouvre</span>
+                    <span class="time-wrapper"><span class="time">July 20th</span></span>
+                  </div>
+                  <div class="desc">Launch of first NFT exchange called Mouvre.</div>
+                </div>
+              </li>
+
+              {/* <!-- Item 7 --> */}
+              <li>
+                <div class="direction-r">
+                  <div class="flag-wrapper">
+                    <span class="flag">Q3 2022 - Swapsicle</span>
+                    <span class="time-wrapper"><span class="time">Sept 2022</span></span>
+                  </div>
+                  <div class="desc">Launch of first new exchanged called Swapsicle.</div>
+                </div>
+              </li>
+              
+            </ul>
+
+          </div>
+        </section>
+
       </>
     );
   }
