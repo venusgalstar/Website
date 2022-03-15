@@ -153,35 +153,13 @@ class HomeStart extends React.Component {
 
 
 
-
-
-
-            {/* <div className="team_member">
-              <div className="team-image">
-                  <img src="/img/team1.png" alt="team_member_image"/>
-                  <div className="fire-container">
-                    <div className="red flame"></div>
-                    <div className="orange flame"></div>
-                    <div className="yellow flame"></div>
-                    <div className="white flame"></div>
-                  </div>
-              </div>
-              <div className="btn_grp">
-                <a href="#" target="_blank"><i className="fab fa-linkedin"></i></a>
-              </div>
-              <h3>John Bonfire</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptatum fuga iure. Est, dicta voluptatum.</p>
-
-            </div> */}
-
-
           </div>
 
 
           </div>
         </section>
 
-        <section id="section-roadmap">
+       {/* <section id="section-roadmap">
           <div className="team-container">
 
             <h2 className="teamTitle">Roadmap</h2>
@@ -189,7 +167,7 @@ class HomeStart extends React.Component {
 
             <ul class="timeline">
 
-              {/* <!-- Item 1 --> */}
+               
               <li>
                 <div class="direction-r">
                   <div class="flag-wrapper">
@@ -200,7 +178,7 @@ class HomeStart extends React.Component {
                 </div>
               </li>
               
-              {/* <!-- Item 2 --> */}
+          
               <li>
                 <div class="direction-l">
                   <div class="flag-wrapper">
@@ -211,7 +189,7 @@ class HomeStart extends React.Component {
                 </div>
               </li>
 
-              {/* <!-- Item 3 --> */}
+             
               <li>
                 <div class="direction-r">
                   <div class="flag-wrapper">
@@ -222,7 +200,7 @@ class HomeStart extends React.Component {
                 </div>
               </li>
 
-              {/* <!-- Item 4 --> */}
+             
               <li>
                 <div class="direction-l">
                   <div class="flag-wrapper">
@@ -233,7 +211,7 @@ class HomeStart extends React.Component {
                 </div>
               </li>
 
-              {/* <!-- Item 5 --> */}
+        
               <li>
                 <div class="direction-r">
                   <div class="flag-wrapper">
@@ -244,7 +222,7 @@ class HomeStart extends React.Component {
                 </div>
               </li>
 
-              {/* <!-- Item 6 --> */}
+            
               <li>
                 <div class="direction-l">
                   <div class="flag-wrapper">
@@ -255,7 +233,7 @@ class HomeStart extends React.Component {
                 </div>
               </li>
 
-              {/* <!-- Item 7 --> */}
+           
               <li>
                 <div class="direction-r">
                   <div class="flag-wrapper">
@@ -270,6 +248,7 @@ class HomeStart extends React.Component {
 
           </div>
         </section>
+        */}
 
       </>
     );
