@@ -153,33 +153,102 @@ class HomeStart extends React.Component {
 
 
 
-
-
-
-            {/* <div className="team_member">
-              <div className="team-image">
-                  <img src="/img/team1.png" alt="team_member_image"/>
-                  <div className="fire-container">
-                    <div className="red flame"></div>
-                    <div className="orange flame"></div>
-                    <div className="yellow flame"></div>
-                    <div className="white flame"></div>
-                  </div>
-              </div>
-              <div className="btn_grp">
-                <a href="#" target="_blank"><i className="fab fa-linkedin"></i></a>
-              </div>
-              <h3>John Bonfire</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptatum fuga iure. Est, dicta voluptatum.</p>
-
-            </div> */}
-
-
           </div>
 
 
           </div>
         </section>
+
+       {/* <section id="section-roadmap">
+          <div className="team-container">
+
+            <h2 className="teamTitle">Roadmap</h2>
+
+
+            <ul class="timeline">
+
+               
+              <li>
+                <div class="direction-r">
+                  <div class="flag-wrapper">
+                    <span class="flag">Team formation</span>
+                    <span class="time-wrapper"><span class="time">Q1 2022 - present</span></span>
+                  </div>
+                  <div class="desc">Selection of our team members. Selection of our team members.</div>
+                </div>
+              </li>
+              
+          
+              <li>
+                <div class="direction-l">
+                  <div class="flag-wrapper">
+                    <span class="flag">Q2 2022 - Launch of Mouvre</span>
+                    <span class="time-wrapper"><span class="time">July 20th</span></span>
+                  </div>
+                  <div class="desc">Launch of first NFT exchange called Mouvre.</div>
+                </div>
+              </li>
+
+             
+              <li>
+                <div class="direction-r">
+                  <div class="flag-wrapper">
+                    <span class="flag">Q3 2022 - Swapsicle</span>
+                    <span class="time-wrapper"><span class="time">Sept 2022</span></span>
+                  </div>
+                  <div class="desc">Launch of first new exchanged called Swapsicle.</div>
+                </div>
+              </li>
+
+             
+              <li>
+                <div class="direction-l">
+                  <div class="flag-wrapper">
+                    <span class="flag">Q2 2022 - Launch of Mouvre</span>
+                    <span class="time-wrapper"><span class="time">July 20th</span></span>
+                  </div>
+                  <div class="desc">Launch of first NFT exchange called Mouvre.</div>
+                </div>
+              </li>
+
+        
+              <li>
+                <div class="direction-r">
+                  <div class="flag-wrapper">
+                    <span class="flag">Q3 2022 - Swapsicle</span>
+                    <span class="time-wrapper"><span class="time">Sept 2022</span></span>
+                  </div>
+                  <div class="desc">Launch of first new exchanged called Swapsicle.</div>
+                </div>
+              </li>
+
+            
+              <li>
+                <div class="direction-l">
+                  <div class="flag-wrapper">
+                    <span class="flag">Q2 2022 - Launch of Mouvre</span>
+                    <span class="time-wrapper"><span class="time">July 20th</span></span>
+                  </div>
+                  <div class="desc">Launch of first NFT exchange called Mouvre.</div>
+                </div>
+              </li>
+
+           
+              <li>
+                <div class="direction-r">
+                  <div class="flag-wrapper">
+                    <span class="flag">Q3 2022 - Swapsicle</span>
+                    <span class="time-wrapper"><span class="time">Sept 2022</span></span>
+                  </div>
+                  <div class="desc">Launch of first new exchanged called Swapsicle.</div>
+                </div>
+              </li>
+              
+            </ul>
+
+          </div>
+        </section>
+        */}
 
       </>
     );
